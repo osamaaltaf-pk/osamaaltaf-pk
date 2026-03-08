@@ -129,14 +129,15 @@ AI-powered research assistant with document retrieval, synthesis, and structured
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=osamaaltaf-pk&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=osamaaltaf-pk&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=osamaaltaf-pk&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&cache_seconds=1800"/>
+
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=osamaaltaf-pk&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8&cache_seconds=1800"/>
 
 </div>
 
 <div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com?user=osamaaltaf-pk&theme=tokyonight&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=FF6B6B&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=8b949e)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=osamaaltaf-pk&theme=tokyonight&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=FF6B6B&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=8b949e)
 
 </div>
 
