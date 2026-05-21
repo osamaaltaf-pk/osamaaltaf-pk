@@ -1,194 +1,129 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Osama%20Altaf&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Engineer%20%7C%20Voice%20AI%20·%20LLM%20Systems%20·%20Inference%20Optimization&descAlignY=51&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1a1b26,1e1e2e,313244&height=180&section=header&text=Osama%20Altaf&fontSize=42&fontColor=cdd6f4&animation=twinkling&fontAlignY=32&desc=AI%20Systems%20%7C%20LLM%20Engineering%20%7C%20AI%20Full%20Stack&descAlignY=52&descAlign=50" width="100%"/>
 
-</div>
+<br/>
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-osamaaltafpk-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/osamaaltafpk)
-[![Email](https://img.shields.io/badge/Email-osamaaltaf.pk%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:osamaaltaf.pk@gmail.com)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-osamaaltaf-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/osamaaltaf)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B923187661096-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923187661096)
-
-</div>
-
----
-
-## 👋 About Me
-
-I'm an **AI Engineer** specializing in production-grade LLM systems, real-time voice AI, and inference optimization. I don't just prototype — I build and ship systems that run in the real world under real constraints.
-
-- 🏛️ Built a **government-grade real-time translation system** handling **30+ languages** with sub-1500ms latency (Morocco GovTech)
-- 🎤 Designed scalable **Voice AI platforms** with inbound/outbound telephony via SIP routing (US project)
-- ⚡ Currently deploying and optimizing **LLMs at scale** using vLLM, KV cache, and quantization for a London-based AI company
-- 🤖 Experienced with **multi-agent orchestration**: LangGraph, CrewAI, AIBrix (TikTok's agent layer)
-- 🔬 Fine-tuned **LLMs and Vision-Language Models** on proprietary datasets for domain-specific tasks
-- 🌍 Remote AI Engineer working across UK, US, and international GovTech projects
-
-> *"I care about AI that works in production — low latency, high reliability, real impact."*
-
----
-
-## 🛠️ Tech Stack
-
-### 🧠 LLM & AI Frameworks
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-FF6B6B?style=flat-square)
-![CrewAI](https://img.shields.io/badge/CrewAI-4A90D9?style=flat-square)
-![vLLM](https://img.shields.io/badge/vLLM-FF4500?style=flat-square)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Unsloth](https://img.shields.io/badge/Unsloth-8A2BE2?style=flat-square)
-
-### 🎤 Voice AI
-![PipeCat](https://img.shields.io/badge/PipeCat-00CED1?style=flat-square)
-![LiveKit](https://img.shields.io/badge/LiveKit-0085CA?style=flat-square)
-![Whisper](https://img.shields.io/badge/OpenAI%20Whisper-412991?style=flat-square&logo=openai&logoColor=white)
-![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=flat-square)
-![SIP/Telephony](https://img.shields.io/badge/SIP%20Telephony-FF6347?style=flat-square)
-
-### ⚡ Inference & Optimization
-![vLLM](https://img.shields.io/badge/vLLM-FF4500?style=flat-square)
-![LMCache](https://img.shields.io/badge/LMCache-20B2AA?style=flat-square)
-![Quantization](https://img.shields.io/badge/GPTQ%20%7C%20AWQ%20%7C%20GGUF-6A5ACD?style=flat-square)
-![KV Cache](https://img.shields.io/badge/KV%20Cache%20Optimization-2E8B57?style=flat-square)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-### 🔧 Backend & Deployment
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-### 📊 Fine-Tuning & MLOps
-![LoRA](https://img.shields.io/badge/LoRA%20%7C%20QLoRA-FF6B6B?style=flat-square)
-![W&B](https://img.shields.io/badge/Weights%20%26%20Biases-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
-![RAGAS](https://img.shields.io/badge/RAGAS%20Evaluation-4CAF50?style=flat-square)
-
----
-
-## 🚀 What I've Built (Production Systems)
-
-```
-🏛️  Gov Real-Time Translation    →  30+ languages · sub-1500ms · LiveKit + PipeCat + Whisper
-🎤  Voice AI Platform (US)       →  SIP telephony · no-code agent builder · LangGraph agents  
-⚡  LLM Inference at Scale       →  vLLM · KV cache · FastAPI · LMCache via Redis
-🔬  Vision-Language Fine-Tuning  →  Llama 3.2 Vision · Unsloth · medical/domain datasets
-🤖  Multi-Agent Orchestration    →  AIBrix · CrewAI · LangGraph · tool-use agents
-```
-
----
-
-## 📌 Featured Projects
-
-<table>
-<tr>
-<td width="50%">
-
-### 🧠 LLMs-Unsloth
-Fine-tuning pipeline using Unsloth for efficient LLM training with LoRA/QLoRA. Domain-specific fine-tuning with experiment tracking.
-
-`Python` `Jupyter` `Unsloth` `LoRA`
-
-</td>
-<td width="50%">
-
-### 🩺 Llama Vision Fine-Tuning
-Fine-tuned Llama 3.2 Vision on radiography datasets for medical image analysis using Unsloth optimization.
-
-`Python` `Vision-LM` `Medical AI` `Unsloth`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🔊 Pocket TTS
-Lightweight Text-to-Speech pipeline with multiple voice engine support and real-time audio processing.
-
-`Python` `TTS` `Voice AI` `Audio Processing`
-
-</td>
-<td width="50%">
-
-### 🔍 Research Assistant
-AI-powered research assistant with document retrieval, synthesis, and structured output generation.
-
-`TypeScript` `RAG` `LLM` `Agents`
-
-</td>
-</tr>
-</table>
-
----
-
-## 📈 GitHub Activity
-
-<div align="center">
-
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=osamaaltaf-pk&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&cache_seconds=1800"/>
-
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=osamaaltaf-pk&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8&cache_seconds=1800"/>
-
-</div>
-
-<div align="center">
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=osamaaltaf-pk&theme=tokyonight&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=FF6B6B&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=8b949e)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-osamaaltafpk-1e1e2e?style=for-the-badge&logo=linkedin&logoColor=89b4fa)](https://linkedin.com/in/osamaaltafpk)
+[![Email](https://img.shields.io/badge/Email-osamaaltaf.pk%40gmail.com-1e1e2e?style=for-the-badge&logo=gmail&logoColor=f38ba8)](mailto:osamaaltaf.pk@gmail.com)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-osamaaltaf-1e1e2e?style=for-the-badge&logo=huggingface&logoColor=f9e2af)](https://huggingface.co/osamaaltaf)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B923187661096-1e1e2e?style=for-the-badge&logo=whatsapp&logoColor=a6e3a1)](https://wa.me/923187661096)
 
 </div>
 
 ---
 
-## 🏆 Experience Highlights
+## 🚀 Professional Profile
+I am a specialized **AI Systems & Full-Stack Engineer** focused on building **production-grade LLM architectures, real-time Voice AI streaming systems, and high-throughput inference pipelines**. I design software that bridges the gap between state-of-the-art AI research and practical, scalable engineering.
 
-| Role | Company | Location | Period |
-|------|---------|----------|--------|
-| 🤖 AI Engineer — LLM Systems | Confidential | London, UK 🇬🇧 | Jul 2025 – Present |
-| 🌍 AI Voice Agent Developer | GovTech Project | Morocco 🇲🇦 | Feb – Jun 2025 |
-| 🎤 AI Engineer — Voice AI Platform | US Project | Miami, USA 🇺🇸 | Nov 2024 – Feb 2025 |
-| 🔬 Junior AI Engineer | Iaxon Software | Pakistan 🇵🇰 | Apr – Oct 2023 |
+- **30+ Active Codebases** covering LLM optimization, offline voice interfaces, and high-performance WebRTC streaming.
+- **Deep Core Systems Integration**: Orchestrating complex pipelines with Redis, Kafka, and hardware-aware mutual exclusion algorithms.
+- **Production AI Deployments**: Veteran developer of enterprise SaaS backends, browser automation agents, and localized AI portals.
 
 ---
 
-## 🌟 Specializations
+## 🎯 Target Role Alignment & Capabilities
 
-```python
-specializations = {
-    "Voice AI":           ["PipeCat", "LiveKit", "Whisper ASR", "SIP Telephony", "TTS Pipelines"],
-    "LLM Inference":      ["vLLM", "PagedAttention", "KV Cache", "GPTQ", "AWQ", "Quantization"],
-    "Fine-Tuning":        ["LoRA", "QLoRA", "RLHF", "Unsloth", "SFTTrainer", "Vision-LMs"],
-    "Agentic Systems":    ["LangGraph", "CrewAI", "AIBrix", "Tool Use", "Multi-Agent Orchestration"],
-    "RAG & Retrieval":    ["LangChain", "Pinecone", "Weaviate", "RAGAS", "Hybrid Search"],
-    "Languages_spoken":   ["Urdu 🇵🇰", "English 🇬🇧 (IELTS 7.5 / C2)"],
-}
-```
+To provide immediate clarity for technical stakeholders and recruitment reviewers, my work directly maps onto the following target positions:
+
+| Target Pillar | Core Alignment & Competencies | Key Evidence (In my Repos) |
+| :--- | :--- | :--- |
+| **Remote AI Engineer** | Real-time audio processing, WebRTC audio streaming, Speech-to-Speech orchestration, and low-latency voice assistants. | [Aura-TTS](https://github.com/osamaaltaf-pk/Aura-TTS) • [OrpheusAssistant](https://github.com/osamaaltaf-pk/OrpheusAssistant) |
+| **LLM System Engineer** | Edge model inference, localized LLM routing engines, Silero VAD integration, Kafka pipeline messaging, and local API optimization. | [QuickCall](https://github.com/osamaaltaf-pk/QuickCall) • [OrpheusAssistant](https://github.com/osamaaltaf-pk/OrpheusAssistant) |
+| **AI Research / Alignment** | Fine-tuning using Unsloth LoRA/QLoRA, RLHF/GRPO logic training without critic models (DeepSeek-R1 styles), and model alignment. | [LLMs-Unsloth](https://github.com/osamaaltaf-pk/LLMs-Unsloth) • [smol-course](https://github.com/osamaaltaf-pk/smol-course) |
+| **AI Full Stack Engineer** | Enterprise web dashboards, modular NestJS/FastAPI backends, secure multi-tier authentication, PostgreSQL/Supabase DBs, and global semantic caching. | [ASK ILM](https://github.com/osamaaltaf-pk/ILM_STUDIO) • [OmniSupport AI](https://github.com/osamaaltaf-pk/omni) • [Gold-Arbitrage](https://github.com/osamaaltaf-pk/Gold-Arbitrage) |
 
 ---
 
-## 📫 Let's Work Together
-
-I'm open to **remote AI engineering roles** and **consulting contracts** with US/UK/EU companies.
-
-**Specializing in:** Voice AI systems · LLM deployment & optimization · Fine-tuning pipelines · Multi-agent architectures
+## 🛠️ Technical Ecosystem
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/osamaaltafpk)
-[![Email](https://img.shields.io/badge/Send_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:osamaaltaf.pk@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp_Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923187661096)
+### AI & LLM Systems
+![PyTorch](https://img.shields.io/badge/PyTorch-1e1e2e?style=flat-for-the-badge&logo=pytorch&logoColor=ee4c2c)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-1e1e2e?style=flat-for-the-badge&logo=huggingface&logoColor=ffb454)
+![FastAPI](https://img.shields.io/badge/FastAPI-1e1e2e?style=flat-for-the-badge&logo=fastapi&logoColor=009688)
+![Transformers](https://img.shields.io/badge/Transformers-1e1e2e?style=flat-for-the-badge&logo=huggingface&logoColor=fff)
+![Whisper](https://img.shields.io/badge/OpenAI_Whisper-1e1e2e?style=flat-for-the-badge&logo=openai&logoColor=41b883)
+![Gemini API](https://img.shields.io/badge/Google_Gemini-1e1e2e?style=flat-for-the-badge&logo=google&logoColor=4285f4)
+![Anthropic SDK](https://img.shields.io/badge/Anthropic_Claude-1e1e2e?style=flat-for-the-badge&logo=anthropic&logoColor=fff)
+
+### Real-Time & Backend Infrastructure
+![Node.js](https://img.shields.io/badge/Node.js-1e1e2e?style=flat-for-the-badge&logo=nodedotjs&logoColor=6db33f)
+![NestJS](https://img.shields.io/badge/NestJS-1e1e2e?style=flat-for-the-badge&logo=nestjs&logoColor=e0234e)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-1e1e2e?style=flat-for-the-badge&logo=apachekafka&logoColor=fff)
+![Redis](https://img.shields.io/badge/Redis-1e1e2e?style=flat-for-the-badge&logo=redis&logoColor=dc382d)
+![Docker](https://img.shields.io/badge/Docker-1e1e2e?style=flat-for-the-badge&logo=docker&logoColor=2496ed)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1e1e2e?style=flat-for-the-badge&logo=postgresql&logoColor=4169e1)
+![Supabase](https://img.shields.io/badge/Supabase-1e1e2e?style=flat-for-the-badge&logo=supabase&logoColor=3ecf8e)
+
+### Frontend Development
+![React 19](https://img.shields.io/badge/React_19-1e1e2e?style=flat-for-the-badge&logo=react&logoColor=61dafb)
+![TypeScript](https://img.shields.io/badge/TypeScript-1e1e2e?style=flat-for-the-badge&logo=typescript&logoColor=3178c6)
+![Vite](https://img.shields.io/badge/Vite-1e1e2e?style=flat-for-the-badge&logo=vite&logoColor=646cff)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-1e1e2e?style=flat-for-the-badge&logo=tailwindcss&logoColor=06b6d4)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-1e1e2e?style=flat-for-the-badge&logo=framer&logoColor=ea4aaa)
 
 </div>
 
 ---
 
+## 📂 Featured Deep-Dives
+
+Here is a curated overview of my primary repositories representing deep engineering focus and production capabilities:
+
+### 1. 🧠 [LLMs-Unsloth (LLM Optimization & Reasoning Hub)](https://github.com/osamaaltaf-pk/LLMs-Unsloth)
+*A specialized research-to-production pipeline repository detailing high-throughput fine-tuning, reasoning models, and edge optimizations.*
+*   **Engineering Highlights**: 
+    *   Fine-tuning pipelines utilizing Unsloth kernels for parameter-efficient optimizations (**LoRA / QLoRA**).
+    *   RLHF training using **Group Relative Policy Optimization (GRPO)** without a separate Critic model (pioneered by DeepSeek-R1) targeting `Qwen3 8B`.
+    *   Horizontal engineering recipes for Mixture-of-Experts (**MoE**) kernels and ModernBERT dense classification systems.
+*   **Key Stack**: Unsloth, PyTorch, LoRA, QLoRA, HuggingFace Transformers, TRL, JAX.
+
+### 2. 🎙️ [Aura-TTS & OrpheusAssistant (Voice AI & Real-Time Orchestration)](https://github.com/osamaaltaf-pk/Aura-TTS)
+*A suite of voice engineering portals dedicated to running low-latency, state-of-the-art offline speech synthesis and real-time assistants.*
+*   **Engineering Highlights**:
+    *   **Aura-TTS**: Created a unified speech workstation running locally under RAM/VRAM resource boundaries using custom **mutual exclusion locking** to manage engine lifecycles (Kokoro-TTS, Pocket-TTS, Supertonic).
+    *   **OrpheusAssistant**: Advanced offline voice agent linking real-time WebRTC bi-directional streams (via `aiortc`), Whisper Large STT, and LLaMA 3.2 3B. Integrates directly with `n8n` for workflow tool execute actions.
+*   **Key Stack**: Python, FastAPI, WebRTC, WebSockets, PipeCat, PyTorch, n8n, Docker.
+
+### 3. ⚡ [QuickCall (S2S Event-Driven Pipeline)](https://github.com/osamaaltaf-pk/QuickCall)
+*An event-driven speech-to-speech architecture demonstrating production backend streaming logic.*
+*   **Engineering Highlights**:
+    *   Parallel **Producer-Consumer** architecture isolating audio recording from backend text transcription.
+    *   Integrates **Silero Voice Activity Detection (VAD)** to segment speech in real-time, feeding files to a background transcription worker.
+    *   Transcription streams directly onto **Apache Kafka** event streams, triggering downstream TTS and post-processing APIs.
+*   **Key Stack**: Python, PyTorch, Silero VAD, Faster Whisper, Apache Kafka, Pydantic.
+
+### 4. 🎓 [ASK ILM (Offline AI Learning Operating System)](https://github.com/osamaaltaf-pk/ILM_STUDIO)
+*A massive offline-first, open-source educational OS designed specifically for classrooms in developing regions.*
+*   **Engineering Highlights**:
+    *   Multi-tier secure roles (Super Admin, Principal, Teacher, Student) with isolated school dashboards.
+    *   Innovative **Tri-Layer Semantic Cache** and LLM router to fetch cached school contents and save AI generation quota / cost.
+    *   Integrated text-to-speech (Deepgram), document rendering (PDF, Excel tables), and local Firebase overrides.
+*   **Key Stack**: React 19, TypeScript, Express, Supabase, Firebase, Anthropic SDK, Google GenAI SDK, Vite, Motion.
+
+### 5. 🛡️ [Omni Automator & Licensing System](https://github.com/osamaaltaf-pk/omni-extension-code-full)
+*An enterprise-grade productivity suite automating prompt queues for high-volume video/image generation pipelines.*
+*   **Engineering Highlights**:
+    *   **Extension Code**: Chrome extension running background batch automation scripts with organic delay controls (stealth pacing) to circumvent platform limits.
+    *   **Licensing System**: Fully integrated with a serverless backend that binds license keys to secure client-side Hardware Device IDs using Supabase PostgreSQL.
+*   **Key Stack**: JavaScript, HTML5, Express, Supabase PostgreSQL, Vercel Serverless Functions.
+
+---
+
+## 📊 Developer Metrics & Impact
+- 🛠️ **Strong System Architect**: Proficient in event sourcing (Kafka), memory management (Redis), and model optimization (Unsloth, Triton).
+- 🌐 **Clean API Designer**: Expert in RESTful architecture, WebRTC bi-directional streams, and secure serverless gateways.
+- 📦 **Docker-first Deployer**: Containerizing complex AI stacks with multi-stage builds and clean Docker Compose networking configs.
+
+---
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+### 💼 Open to Remote Opportunities
+I am actively exploring **Remote AI Engineer, Junior LLM System Engineer, AI Research, and AI Full-Stack** opportunities globally. Let's build the future of localized, low-latency, and event-driven AI systems.
 
-*"Building AI systems that work at government scale, voice latency, and production reliability."*
+[📧 Get In Touch](mailto:osamaaltaf.pk@gmail.com) • [💬 Chat on WhatsApp](https://wa.me/923187661096)
 
 </div>
