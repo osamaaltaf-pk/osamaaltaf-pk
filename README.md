@@ -27,7 +27,7 @@ I am a specialized **AI Systems Engineer** focused on building **offline-first A
 
 | Target Pillar | Core Alignment & Competencies | Key Evidence (In my Repos) |
 | :--- | :--- | :--- |
-| **Offline AI Media Engineer** | Multi-lane video stitching, local TTS/SFX generation, FFmpeg pipeline engineering, 2D lip sync, whiteboard sketch animation. | [Auto_Stitch](https://github.com/osamaaltaf-pk/Auto_Stitch) • [Omni-Lip-Sync](https://github.com/osamaaltaf-pk/Omni-Lip-Sync) • [Wisko](https://github.com/osamaaltaf-pk/Wisko) |
+| **Offline AI Media Engineer** | Multi-lane video stitching, local TTS/SFX generation, FFmpeg pipeline engineering, 2D lip sync, whiteboard sketch animation. | AutoStitch Studio *(private)* • [Omni-Lip-Sync](https://github.com/osamaaltaf-pk/Omni-Lip-Sync) • Wisko *(private)* |
 | **LLM Infrastructure Engineer** | Self-hosted AI runtime OS, multi-backend inference routing (Ollama/vLLM/SGLang), ONNX export pipelines, hybrid vector + graph memory. | [NeuralFolk](https://github.com/osamaaltaf-pk/NeuralFolk) • [onnx-sfx-music-stable-audio](https://github.com/osamaaltaf-pk/onnx-sfx-music-stable-audio) |
 | **AI Automation Engineer** | LangGraph multi-agent DAG pipelines, YouTube content automation, APScheduler orchestration, Supabase state + GCS media management. | [CMS](https://github.com/osamaaltaf-pk/CMS) • [Omni_Automator](https://github.com/osamaaltaf-pk/Omni_Automator) |
 | **Voice AI Engineer** | Real-time TTS streaming (~200ms), voice cloning, WebRTC audio, multi-engine offline voice pipelines. | [Pocket_TTS](https://github.com/osamaaltaf-pk/Pocket_TTS) • [Aura-TTS](https://github.com/osamaaltaf-pk/Aura-TTS) • [OrpheusAssistant](https://github.com/osamaaltaf-pk/OrpheusAssistant) |
@@ -78,7 +78,7 @@ I am a specialized **AI Systems Engineer** focused on building **offline-first A
 
 Here is a curated overview of my primary repositories representing deep engineering focus and production capabilities:
 
-### 1. 🎬 [Auto_Stitch (Offline AI Video Production Suite)](https://github.com/osamaaltaf-pk/Auto_Stitch)
+### 1. 🎬 AutoStitch Studio (Offline AI Video Production Suite) *— private repo*
 *A locally-run, offline-first Windows desktop application that automates voiceover generation, sound effect creation, and multi-lane video stitching — entirely without any cloud dependency.*
 *   **Engineering Highlights**:
     *   **Multi-Lane Timeline Editor**: Drag, reorder, split, merge, and edit clips across 3 independent lanes with a browser-based UI.
@@ -86,7 +86,8 @@ Here is a curated overview of my primary repositories representing deep engineer
     *   **Local SFX Engine**: Generates sound effects from text prompts using ONNX-exported Stable Audio 3 Small, running fully on CPU.
     *   **Auto-Captions**: Word-by-word caption overlays burned into final video via FFmpeg `drawtext` filters.
     *   **Background Music Mixer**: Mixes ambient music tracks with adjustable volume into the final rendered output.
-*   **Key Stack**: Python, FFmpeg, ONNX Runtime, PocketTTS, FastAPI, WebSockets.
+    *   **Rebuilt Timeline UI**: Sticky-scroll track headers/ruler and stable React keys eliminate audio stutter and DOM rebuild lag during playback.
+*   **Key Stack**: Python, FFmpeg, ONNX Runtime, PocketTTS, FastAPI, WebSockets, React.
 
 ### 2. 🧠 [NeuralFolk (Self-Hosted AI Runtime OS)](https://github.com/osamaaltaf-pk/NeuralFolk)
 *A self-hosted, open-source, air-gapped AI runtime Operating System — enabling companies, developers, and researchers to orchestrate state-of-the-art AI agents and multi-model workflows completely locally, from an RTX 2070 laptop to enterprise clusters.*
