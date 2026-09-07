@@ -39,6 +39,26 @@ The gap I keep running into is between *fluent* output and *grounded* output. Fi
 
 ---
 
+## 🎓 Academic Background
+
+<div align="center">
+
+| | |
+| :--- | :--- |
+| **BS Physics** — Computational Physics & Computer Programming | Khwaja Fareed University of Engineering & IT (KFUEIT), Pakistan · 2019–2023 |
+| **CGPA** | **3.67 / 4.00** (US 4.0 scale) · EQF Level 6 |
+| **Undergraduate thesis** | *Object Detection Transformer for disease detection on cotton leaves* — a DETR-style detector plus an AI-modelled digital microscope, outperforming CNN baselines on classification accuracy |
+| **English** | IELTS **7.5** overall — C2 Listening & Reading, C1 Speaking & Writing |
+| **Continuing education** | ML, MLOps & LLM Zoomcamps (DataTalks.Club) · 10 certificates from DeepLearning.AI, IBM/edX |
+
+</div>
+
+**Academic service.** Conference organiser for **ICPSE-2021**, **ICPSE-2022** (International Conferences on Physical Sciences & Engineering) and **ICSMAND** (9th International Conference on Semiconductor Materials & Nano-Devices). President of the Natural Resources Defence Council & Society at KFUEIT. Organised the 1st South Punjab Science Mela, 2021.
+
+📄 **[Full CV (PDF)](https://osama-altaf.vercel.app/Osama_Altaf_Resume.pdf)** · 🔬 **[Research profile for academic readers](https://osama-altaf.vercel.app/professors)**
+
+---
+
 ## 🎯 Target Role Alignment & Capabilities
 
 | Target Pillar | Core Alignment & Competencies | Key Evidence (In my Repos) |
