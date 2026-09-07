@@ -23,6 +23,22 @@ I am a specialized **AI Systems Engineer** focused on building **offline-first A
 
 ---
 
+## 🎓 Research Direction — Medical Imaging & Grounded Vision-Language
+
+> I am applying for doctoral positions in **medical imaging AI**. The question I want to work on: given a 3D scan and a clinician's question about it, produce an answer in plain clinical language **that points to the exact voxels it came from** — where segmentation, visual grounding and language stop being three fields and become one.
+
+The gap I keep running into is between *fluent* output and *grounded* output. Fine-tuning a vision-language model on radiography produces report-like text almost immediately; establishing that the text is traceable to a region of the image is a much harder problem, and the one I want to work on properly.
+
+| Repository | Relevance |
+| :--- | :--- |
+| **[Llama_3_2_Vision_Finetuning_Unsloth_Radiography](https://github.com/osamaaltaf-pk/Llama_3_2_Vision_Finetuning_Unsloth_Radiography)** | LoRA fine-tuning of Llama 3.2 Vision on radiography — the work closest to the direction above, and where the fluency-vs-grounding gap became concrete. |
+| **[radiology-ai-assistant](https://github.com/osamaaltaf-pk/radiology-ai-assistant)** | A five-stage pipeline that makes a VLM commit to a location: analyse → research → **emit normalised bounding boxes** → render them onto the image → discuss. An early, explicit attempt at grounding in 2D. |
+| **[dinov2-live-person-reid](https://github.com/osamaaltaf-pk/dinov2-live-person-reid)** | Self-supervised ViT representations (DINOv2 CLS embeddings) used for identity matching — hands-on with what pretrained vision-transformer features do and do not encode. |
+| **[gemma-edu-dataset-pipeline](https://github.com/osamaaltaf-pk/gemma-edu-dataset-pipeline)** | Dataset construction at scale, with a documented record of format failures and regeneration. Most of the difficulty in grounded supervision is here, not in the architecture. |
+| **[cotton-disease-detection](https://github.com/osamaaltaf-pk/cotton-disease-detection)** | Final-year project: VGG16 transfer learning for crop disease classification. Confidently wrong on conditions absent from the training set — the lesson about labels that shaped everything after. |
+
+---
+
 ## 🎯 Target Role Alignment & Capabilities
 
 | Target Pillar | Core Alignment & Competencies | Key Evidence (In my Repos) |
@@ -140,6 +156,40 @@ Here is a curated overview of my primary repositories representing deep engineer
     *   RLHF training using **Group Relative Policy Optimization (GRPO)** without a separate Critic model (pioneered by DeepSeek-R1), targeting `Qwen3 8B`.
     *   Horizontal engineering recipes for Mixture-of-Experts (**MoE**) kernels and ModernBERT dense classification systems.
 *   **Key Stack**: Unsloth, PyTorch, LoRA, QLoRA, HuggingFace Transformers, TRL, JAX.
+
+---
+
+## 🗄️ Earlier Work — Foundations Archive (2023 – 2026)
+
+> **A note on timing:** these are older projects — university work, internship builds and independent experiments — developed offline over several years and only **pushed to GitHub in September 2026**. The commit dates reflect when they were uploaded, not when they were written. Each repository's README states its own original timeline.
+
+### 🔬 Computer Vision & Deep Learning
+
+| Project | What it does | Built | Stack |
+| :--- | :--- | :--- | :--- |
+| **[radiology-ai-assistant](https://github.com/osamaaltaf-pk/radiology-ai-assistant)** | Five-stage Gemini pipeline: analyse an X-ray, research the findings, emit and render bounding boxes for them, then discuss the result over live audio/video. | 2025 | Gemini Live API · Gradio · Pillow · asyncio |
+| **[dinov2-live-person-reid](https://github.com/osamaaltaf-pk/dinov2-live-person-reid)** | Enrol a person once, then re-identify them live across two camera feeds by cosine similarity over DINOv2 CLS embeddings. | 2025 | DINOv2 · ViT · YOLO · PyTorch |
+| **[face-recognition-system](https://github.com/osamaaltaf-pk/face-recognition-system)** | Modular MTCNN + FaceNet package with four modes — enrollment, recognition, multi-camera surveillance, IoU tracking — over Postgres, MongoDB, Redis and FAISS. | 2025 | facenet-pytorch · FAISS · Gradio |
+| **[cotton-disease-detection](https://github.com/osamaaltaf-pk/cotton-disease-detection)** | VGG16 transfer-learning classifier for four cotton leaf conditions, served as a Flask app with still-image and live-video modes. | 2023–24 | TensorFlow · Keras · Flask · OpenCV |
+
+### 🤖 LLM Pipelines, Agents & Automation
+
+| Project | What it does | Built | Stack |
+| :--- | :--- | :--- | :--- |
+| **[gemma-edu-dataset-pipeline](https://github.com/osamaaltaf-pk/gemma-edu-dataset-pipeline)** | Turns curriculum textbooks into a fine-tuning dataset of self-contained interactive HTML5 lessons, then LoRA-tunes Gemma on it. | 2026 | Unsloth · PEFT · TRL · Gemma E2B |
+| **[classroom-ai-grader](https://github.com/osamaaltaf-pk/classroom-ai-grader)** | Pulls Google Classroom submissions, extracts text from any format (PDF, DOCX, HTML, scanned pages via vision), grades with an LLM, exports CSV. | 2024 | Classroom & Drive APIs · Llama 3.1 405B |
+| **[academic-research-assistant](https://github.com/osamaaltaf-pk/academic-research-assistant)** | Takes a research topic, searches the literature, parses the papers, drafts a structured review. | 2024 | Gradio · Serper · Crossref · docling |
+| **[ai-news-summarizer](https://github.com/osamaaltaf-pk/ai-news-summarizer)** | Keyword news search with relevance scoring and LLM-rewritten headlines and summaries. | 2024 | Flask · NewsAPI · Together AI |
+| **[linkedin-ai-engagement-bot](https://github.com/osamaaltaf-pk/linkedin-ai-engagement-bot)** | Monitors LinkedIn for keyword matches, drafts contextual replies, publishes via the UGC API. | 2024 | LinkedIn UGC API · Llama 3.1 405B |
+| **[google-classroom-cli-automation](https://github.com/osamaaltaf-pk/google-classroom-cli-automation)** | `class SE` opens the right Meet from the terminal — links fetched live from the Classroom API so they survive rotation. | 2024 | Classroom API v1 · OAuth · pyautogui |
+| **[nvidia-rag-course-work](https://github.com/osamaaltaf-pk/nvidia-rag-course-work)** | Completed notebooks from NVIDIA's DLI *Building RAG Agents with LLMs* — runnables, running state, LangServe, chunking. | 2024 | LangChain · LangServe |
+
+### 🌐 Web, Embedded & Games
+
+| Project | What it does | Built | Stack |
+| :--- | :--- | :--- | :--- |
+| **[crypts-of-doom](https://github.com/osamaaltaf-pk/crypts-of-doom)** | Roguelite dungeon survivor for the browser — 24 upgrades, boss waves, mobile joystick. Every sprite drawn procedurally, every sound synthesised live: **zero assets, zero dependencies**. | 2026 | Vanilla JS · Canvas 2D · Web Audio API |
+| **[esp32-cam-edge-impulse](https://github.com/osamaaltaf-pk/esp32-cam-edge-impulse)** | ESP32-S3-EYE that streams MJPEG over WiFi *and* runs a FOMO object-detection model on-device simultaneously. | 2026 | ESP32 · Edge Impulse SDK · C++ |
 
 ---
 
